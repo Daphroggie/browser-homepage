@@ -14,7 +14,7 @@ st.markdown(
     "<h1>WELCOME TO THE HUB <sup style='font-size:.6em;'>(not that kind)</sup></h1>",
     unsafe_allow_html=True
 )
-
+st.divider()
 utils, socials, productivity, docs = st.columns(4)
 with socials:
     youtube = Redirect(logo="Redirect Icons/youtube.png", name="YouTube", link="https://www.youtube.com")
